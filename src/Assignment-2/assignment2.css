@@ -1,7 +1,119 @@
-/* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
-}
+.container{
+    /* background-color: gray; */
+    padding: 1vw;
+    border: 1px solid red;
+    }
+    header{
+        /* display: block; */
+        /* background-color: aqua; */
+        border: 1px solid red;
+        /* width: 100%; */
+        height: 10vh;
+        margin: 10px;
+    }
+    #logo, #search{
+    display: inline-block;
+    }
+    #logo{
+        float: left;
+        padding: 20px;
+    }
+    #search{
+        float: right;
+        padding: 30px;
+    }
+    nav{
+        /* background-color: black; */
+        border: 1px solid red;
+        margin: 10px;
+    text-align: center;
+    padding :10px;
+        height: 3vh;
+    }
+    nav a{
+        padding: 10px;
+    }
+    .content{
+        width: 97%;
+        height: 60vh;
+        /* background-color: azure;
+         */
+        border: 1px solid rgb(7, 1, 1);
+        margin: 10px;
+    padding: 10px;
+        /* display: inline-block; */
+    }
+    #aside1{
+        width: 20%;
+        height: 58vh;
+        /* background-color: rebeccapurple; */
+        border: 1px solid red;
+        margin: 10px;
+    
+        float: left;
+    }
+    aside ul{
+        line-height: 40px;
+        /* font-weight: 500; */
+        list-style-type:none;
+        padding: 5;
+    
+    }
+    /* aside ul li{
+        text-align: left;
+    } */
+    main{
+        width: 52%;
+        height: 53vh;
+        /* background-color: bisque; */
+        border: 1px solid rgb(10, 1, 1);
+    padding:15px;
+        float: left;
+        margin: 10px;
+    
+    }
+    section{
+        width: 95%;
+        border: 1px solid red;
+        height: 40%;
+        /* background-color: red; */
+    /* margin:auto; */
+    /* padding:10px */
+    margin: 10px;
+    /* position: inherit; */
+    /* background-size:cover; */
+    
+    }
+    .div1{
+        display: inline-block;
+        /* background-color: red; */
+        border: 1px solid rgb(64, 15, 241);
+    
+        height: 60%;
+        width: 20%;
+        /* align-items: center; */
+        /* justify-content: space-around; */
+        padding: 18px;
+        margin: 20px;
+        align-content: center;
+    }
+    #aside2{
+        width: 20%;
+        height: 58vh;
+        border: 1px solid red;
+        margin: 10px;
+    
+        /* background-color: rebeccapurple; */
+        float: left;
+    
+    }
+    footer{
+        /* background-color: aqua; */
+        border: 1px solid red;
+        /* width: 100%; */
+        margin: 10px;
+        height: 10vh;
+        padding: 20px;
+    }
